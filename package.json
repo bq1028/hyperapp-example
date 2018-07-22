@@ -1,0 +1,22 @@
+{
+  "name": "hyperapp-example",
+  "version": "1.0.0",
+  "description": "Small example application using hyperappjs",
+  "main": "index.js",
+  "repository": "https://github.com/ionutpetrache/hyperapp-example.git",
+  "author": "Ion Petrache",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "hyperapp": "^1.2.8"
+  }
+}
